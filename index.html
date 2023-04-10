@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Hotel</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form>
+  <div class="mb-3">
+    <label for="InputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll most likely share your email with someone else.</div>
+  </div>
+  <div class="mb-3">
+    <label for="InputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="InputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="Check1">
+    <label class="form-check-label" for="Check1">Checkbox!</label>
+  </div>
+  
+  <!-- text input -->
+  <div class="mb-3">
+    <label for="text" class="form-label">Enter some text</label>
+    <input type="text" class="form-control" id="textarea">
+  </div>
+  <!-- textarea input -->
+  <div class="mb-3">
+    <label for="textarea" class="form-label">Enter a lot of text</label>
+    <input type="textarea" class="form-control" id="textarea">
+  </div>
+  <!-- creates and gives option for dropdown input -->
+  <div class="mb-3">
+    <label for="choice" class="form-label">Do you like this website?</label>
+    <select id="choice" name="decision">
+      <option value="yes">Yes</option>
+      <option value="no">No</option>
+      <option value="eh">Kinda</option>
+    </select>
+  </div>
+  <!-- creates and gives options for radio input -->
+  <div class="mb-3">
+    <label for="textarea" class="form-label">Favorite class?</label>
+    <br>
+    <input type="radio" id="web dev" name="fav_class" value="web dev">
+    <label for="html">Web Dev</label><br>
+    <input type="radio" id="web dev??" name="fav_class" value="web dev??">
+    <label for="css">Web Dev??</label><br>
+    <input type="radio" id="just pick web dev" name="fav_class" value="just pick web dev">
+    <label for="javascript">Just pick web dev</label>
+  </div>
+  <!-- creates checkbox -->
+  <div class="mb-3">
+    <label for="checkbox">What</label><br>
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <label for="vehicle1"> I have a bike</label><br>
+    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+    <label for="vehicle2"> I have a car</label><br>
+    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+    <label for="vehicle3"> I have a boat</label><br>
+  </div>
+  <!-- displays calendar -->
+  <div class="mb-3">
+    <label for="currentday"> What day is it?</label>
+    <input type="datetime-local" id="currentday" name="currenttime">
+  </div>
+  <div class="col text-center">
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </div>
+</form>
+
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
